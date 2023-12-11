@@ -1,41 +1,50 @@
-# Documentation
+# Double Ended Queue
 
-	## create();
+This is a generic linear data structure ***Double Ended Queue (Deque)*** made in C. It was created during Data Structures course during the second semester of **Software Engineering (2022)**.
+
+## Deque documentation
+
+	create();
 		- Initializes the deque.
 
-	## count();
+	count();
 		- Counts the number of nodes active.
 
-	## isEmpty();
+	isEmpty();
 		- Checks whether the deque is empty.
 
-	## isFull();
+	isFull();
 		- Checks whether the deque is full.
 
-	## pushFront();
+	pushFront();
 		- Takes an integer and pushes it into the deque's front.
 
-	## pushRear();
+	pushRear();
 		- Takes an integer and pushes it into the deque's back.
 
-	## popFront();
+	popFront();
 		- Removes the last element from the deque's front.
 
-	## popRear();
+	popRear();
 		- Removes the last element from the deque's back.
 
-	## printFront();
+	printFront();
 		- Prints the element at the front to the screen.
 
-	## printRear();
+	printRear();
 		- Prints the element at the back to the screen.
 
-	## makeEmpty();
+	makeEmpty();
 		- Voids all the elements in the deque.
 
-	## clone();
+	clone();
 		- Makes a copy of the deque.
 
-# There is an example test program given to test out the functions.
+## Run
+```
+run Go.cmd
+```
+
+## There is an example test program given to test out the functions.
 	
 
