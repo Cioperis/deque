@@ -40,9 +40,9 @@ This is a generic linear data structure ***Double Ended Queue (Deque)*** made in
 	clone();
 		- Makes a copy of the deque.
 
-## Run
+## To execute, run this file:
 ```
-run Go.cmd
+Go.cmd
 ```
 
 ## There is an example test program given to test out the functions.
